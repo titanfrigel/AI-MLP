@@ -1,10 +1,10 @@
 ##
 ## File: CMakeLists.txt
-## Project: Ai2
+## Project: AI-MLP
 ## Created Date: Sunday, June 4th 2023, 3:11:45 pm
 ## Author: titanfrigel
 ## -----
-## Last Modified: Tuesday, June 20th 2023, 3:59:24 pm
+## Last Modified: Thursday, June 29th 2023, 4:46:20 pm
 ## Modified By: titanfrigel
 ##
 
@@ -18,7 +18,6 @@ set(CMAKE_CXX_FLAGS "-g3")
 
 add_executable(${PROJECT_NAME}
     src/Main.cpp
-    # src/AI.cpp
 )
 
 target_link_libraries(${PROJECT_NAME}

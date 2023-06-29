@@ -1,1 +1,1 @@
-mkdir -p build && cd build && cmake .. && make && cp -f build/ai .. && cd ..
+mkdir -p build && cd build && cmake .. && make && cp -f ai .. && cd ..
